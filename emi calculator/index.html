@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="form box">
+            <p>loan amount (₹)</p>
+            <input type="number" placeholder="enter loan amount" id="amount" min="10000" max="10000000" maxlength="8" required class="input">
+            <p>interest rate (%)</p>
+            <input type="number" placeholder="enter interest rate" id="interest" min="1" max="99" maxlength="4" required step="0.01" class="input">
+            <p>loan tenure (yr/mo)</p>
+            <input type="number" placeholder="enter loan duration" id="loanTenure" min="1" max="360" maxlength="3" required class="input">
+            <div class="tenure">
+                <input type="radio" name="btn" id="year" checked>
+                <label for="year">yearly</label>
+                <input type="radio" name="btn" id="month">
+                <label for="month">monthly</label>
+            </div>
+            <button class="calculate" id="calculate">calculate</button>
+        </div>
+
+        <div class="box output">
+            <p>EMI</p>
+            <div id="emi"></div>
+            <p>total interest</p>
+            <div id="totalInterest"></div>
+            <p>total payment</p>
+            <div id="totalPayment"></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>    
+    
+</body>
+</html>
