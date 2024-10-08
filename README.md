@@ -18,7 +18,8 @@ This project is a simple **Loan EMI (Equated Monthly Installment) Calculator** b
 - **CSS3**: For styling the layout, including form inputs and output display, using a responsive design with custom fonts and background.
 - **JavaScript**: To handle user input, validate values, and perform the EMI calculation using the following formula:
 
- EMI = [P * r * (1 + r)^n] / [(1 + r)^n - 1]
+## EMI = [P * r * (1 + r)^n] / [(1 + r)^n - 1]
+
 Where:
 - `P` = Loan Amount
 - `r` = Monthly interest rate (Annual interest rate divided by 12)
